@@ -67,3 +67,48 @@ Our project demonstrates the potential of machine learning in sports analytics, 
 - **Inesh Tickoo**
 
 For more details, refer to our [full report](https://docs.google.com/presentation/d/1BLMbALWPsNALwAadNxVW6TQw1Fjc3aljagco7NiLfTg/). Contributions and feedback are welcome!
+
+## Project Files
+
+### File Descriptions
+
+- **attribute.h**: Header file for the attribute class, defining the attributes used in the model.
+- **attribute.cpp**: Implementation of the attribute class, including methods for handling attribute data.
+- **instance.h**: Header file for the instance class, defining instances of player data.
+- **instance.cpp**: Implementation of the instance class, including methods for processing instances of data.
+- **main.cpp**: Main program file that integrates all components, executes the model, and outputs the results.
+- **og_test.arff**: Original test dataset in ARFF format.
+- **og_train_valid.arff**: Original combined training and validation dataset in ARFF format.
+- **og_train.arff**: Original training dataset in ARFF format.
+- **og_valid.arff**: Original validation dataset in ARFF format.
+- **oversample_train_valid.arff**: Oversampled combined training and validation dataset in ARFF format.
+- **oversample_train.arff**: Oversampled training dataset in ARFF format.
+- **oversample_valid.arff**: Oversampled validation dataset in ARFF format.
+- **test_noaward.arff**: Test dataset excluding the awards feature in ARFF format.
+- **training_noaward.arff**: Training dataset excluding the awards feature in ARFF format.
+- **validation_noaward.arff**: Validation dataset excluding the awards feature in ARFF format.
+
+### How to Run
+
+1. **Clone the Repository**:
+    ```sh
+    git clone https://github.com/yourusername/MLB-Hall-of-Fame-Predictor.git
+    cd MLB-Hall-of-Fame-Predictor
+    ```
+
+2. **Compile the Code**:
+    Ensure you have a C++ compiler installed. You can use `g++` for this purpose:
+    ```sh
+    g++ main.cpp attribute.cpp instance.cpp -o hall_of_fame_predictor
+    ```
+
+3. **Run the Program**:
+    Execute the compiled program:
+    ```sh
+    ./hall_of_fame_predictor
+    ```
+
+4. **Review the Results**:
+    The program will output the prediction results and error rates. Check the terminal for detailed information.
+
+Feel free to contribute to the project by opening issues or submitting pull requests. Your feedback is greatly appreciated!
