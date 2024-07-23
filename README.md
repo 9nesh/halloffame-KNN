@@ -33,4 +33,4 @@ Our project demonstrates the potential of machine learning in sports analytics, 
 - Zack Leonard
 - Inesh Tickoo
 
-For more details, refer to our [full report](link_to_report). Contributions and feedback are welcome!
+For more details, refer to our [full report](https://docs.google.com/presentation/d/1BLMbALWPsNALwAadNxVW6TQw1Fjc3aljagco7NiLfTg/). Contributions and feedback are welcome!
