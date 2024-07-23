@@ -1,0 +1,16 @@
+{\rtf1}
+
+We used R for data processing. Python for converting CSV to ARFF, for visualizations, and for oversampling the datasets. 
+
+og_train.arff - first training file (with awards). use it to find best K with og_valid.arff
+
+og_train_valid.arff - og_train(.60) + og_valid(.20). use it as a training set for og_test.arff
+
+
+
+test_noaward, train_noaward, and validation_noaward are the same as the og arff files, just without the tiers of awards. no awards. 
+
+
+oversample_train, oversample_valid - use to find best K 
+oversample_train_valid, test_noaward - use to test the efficacy of the oversampled training set with the best K. 
+
